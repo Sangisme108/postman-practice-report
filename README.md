@@ -210,31 +210,7 @@ Bài thực hành kiểm thử API bằng Postman giúp em nắm được quy tr
 
 Kết quả thực hành cho thấy Postman là công cụ hữu ích trong học tập và phát triển phần mềm, đặc biệt khi cần kiểm tra API trước khi xây dựng giao diện hoặc tích hợp vào hệ thống.
 
-## 12. Hướng dẫn nộp link GitHub
 
-Sau khi hoàn thành báo cáo và thêm ảnh chụp màn hình vào thư mục `images/`, thực hiện các bước sau:
-
-1. Tạo repository mới trên GitHub với tên `postman-practice-report`.
-2. Đẩy project này lên GitHub.
-3. Mở repository trên GitHub.
-4. Sao chép đường dẫn repository.
-5. Nộp link GitHub theo yêu cầu của giảng viên.
-
-Ví dụ link nộp bài:
-
-```text
-https://github.com/ten-tai-khoan/postman-practice-report
-```
-
-## 13. Gợi ý lệnh Git để đẩy bài lên GitHub
-
-```bash
-git init
-git add .
-git commit -m "Add Postman practice report"
-git branch -M main
-git remote add origin https://github.com/ten-tai-khoan/postman-practice-report.git
-git push -u origin main
 ```
 
 Lưu ý: Thay `ten-tai-khoan` bằng tên tài khoản GitHub của bạn.
