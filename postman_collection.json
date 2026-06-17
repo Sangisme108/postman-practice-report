@@ -1,0 +1,126 @@
+{
+  "info": {
+    "_postman_id": "f0b55bb3-33d7-4e1a-9a33-postman-practice",
+    "name": "Postman Practice - JSONPlaceholder",
+    "description": "Collection thực hành kiểm thử API bằng Postman với JSONPlaceholder. Bao gồm 4 request: GET, POST, PUT, DELETE.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "GET - Get all posts",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://jsonplaceholder.typicode.com/posts",
+          "protocol": "https",
+          "host": [
+            "jsonplaceholder",
+            "typicode",
+            "com"
+          ],
+          "path": [
+            "posts"
+          ]
+        },
+        "description": "Lấy danh sách bài viết từ JSONPlaceholder."
+      },
+      "response": []
+    },
+    {
+      "name": "POST - Create a post",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"title\": \"Bai viet thuc hanh Postman\",\n  \"body\": \"Day la noi dung bai viet duoc tao bang request POST.\",\n  \"userId\": 1\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://jsonplaceholder.typicode.com/posts",
+          "protocol": "https",
+          "host": [
+            "jsonplaceholder",
+            "typicode",
+            "com"
+          ],
+          "path": [
+            "posts"
+          ]
+        },
+        "description": "Tạo một bài viết mới bằng phương thức POST."
+      },
+      "response": []
+    },
+    {
+      "name": "PUT - Update post 1",
+      "request": {
+        "method": "PUT",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"id\": 1,\n  \"title\": \"Cap nhat bai viet bang PUT\",\n  \"body\": \"Noi dung bai viet da duoc cap nhat trong Postman.\",\n  \"userId\": 1\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://jsonplaceholder.typicode.com/posts/1",
+          "protocol": "https",
+          "host": [
+            "jsonplaceholder",
+            "typicode",
+            "com"
+          ],
+          "path": [
+            "posts",
+            "1"
+          ]
+        },
+        "description": "Cập nhật bài viết có id là 1 bằng phương thức PUT."
+      },
+      "response": []
+    },
+    {
+      "name": "DELETE - Delete post 1",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "https://jsonplaceholder.typicode.com/posts/1",
+          "protocol": "https",
+          "host": [
+            "jsonplaceholder",
+            "typicode",
+            "com"
+          ],
+          "path": [
+            "posts",
+            "1"
+          ]
+        },
+        "description": "Xóa bài viết có id là 1 bằng phương thức DELETE."
+      },
+      "response": []
+    }
+  ]
+}
