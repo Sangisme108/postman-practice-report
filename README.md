@@ -211,6 +211,3 @@ Bài thực hành kiểm thử API bằng Postman giúp em nắm được quy tr
 Kết quả thực hành cho thấy Postman là công cụ hữu ích trong học tập và phát triển phần mềm, đặc biệt khi cần kiểm tra API trước khi xây dựng giao diện hoặc tích hợp vào hệ thống.
 
 
-```
-
-Lưu ý: Thay `ten-tai-khoan` bằng tên tài khoản GitHub của bạn.
